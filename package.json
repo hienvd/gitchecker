@@ -1,0 +1,23 @@
+{
+  "name": "gitchecker",
+  "version": "0.0.1",
+  "description": "A checker to check missing commits between Git branches",
+  "main": "bin/bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hienvd/gitchecker.git"
+  },
+  "keywords": [
+    "gitchecker"
+  ],
+  "author": "hienvd",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "rsvp": "^3.1.0",
+    "shelljs": "~0.5.3",
+    "underscore": "~1.8.3"
+  }
+}
